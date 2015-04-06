@@ -1,0 +1,5593 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass extarticle
+\begin_preamble
+\let\stdpart\part
+\renewcommand*{\part}{\clearpage\stdpart}
+\rhead{}
+\lhead{}
+\rfoot{}
+
+%\setlength{\intextsep}{0cm plus1cm minus1cm}
+
+\setlength{\wrapoverhang}{1cm}
+%\setlength{\wrapoverhang}{\marginparwidth}
+%\addtolength{\wrapoverhang}{\marginparsep}
+
+\makeatletter
+\renewcommand{\fnum@figure}{}
+\renewcommand{\fnum@table}{}
+\makeatother 
+
+\usepackage{caption}
+\captionsetup{
+  font=small}
+\end_preamble
+\use_default_options true
+\begin_modules
+info
+\end_modules
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement h
+\paperfontsize 14
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 3cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 3
+\tocdepth 0
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle fancy
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename page_de_garde.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset External
+	template PDFPages
+	filename /Users/ineiti/Documents/Work/ProFeDA/Cours/1-Base/page_interieur.pdf
+
+\end_inset
+
+
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Avant-propos
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+chead{
+\backslash
+copyright 2014 markas-al-nour.org}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand
+\backslash
+partname{Leçon}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+floatname{algorithm}{Exercice}
+\end_layout
+
+\end_inset
+
+Ceci est la première partie du fascicule créé par divers associations pour
+ un enseignement informatique de base.
+ Chaque leçon du document peut se faire en deux heures de temps.
+ La totalité des dix leçons se donne avec une leçon de révision et la dernière
+ leçon en examen.
+\end_layout
+
+\begin_layout Section
+Copyright et Copyleft
+\end_layout
+
+\begin_layout Standard
+Ce document est sous copyleft CC BY-SA, ce qui veut dire que vous pouvez
+ le copier et le diffuser, sous deux conditions:
+\end_layout
+
+\begin_layout Itemize
+Toujours garder les auteurs originaux dans l'œuvre
+\end_layout
+
+\begin_layout Itemize
+Mettre l'œuvre sous la même licence, donc aussi CC BY-SA
+\end_layout
+
+\begin_layout Standard
+Pour plus d'informations, vous pouvez aller sur 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+target "http://wiki.creativecommons.org/"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Auteurs
+\end_layout
+
+\begin_layout Standard
+Dans le tableau 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Auteurs-et-initiataires"
+
+\end_inset
+
+ on voit les personnes qui ont travaillé sur ce livret.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features rotate="0" tabularvalignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/MAN-logo-nb.png
+	lyxscale 10
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "11cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+Service Au Sahel Tchad (SAS) 
+\begin_inset Newline newline
+\end_inset
+
+Association à but non-lucratif 
+\begin_inset Newline newline
+\end_inset
+
+Centre de formation et de culture Markas-al-Nour
+\begin_inset Newline newline
+\end_inset
+
+Tel: +235 63 20 90 18
+\end_layout
+
+\begin_layout Plain Layout
+Samuel Schoofs - premières utilisations, retouches et idées
+\end_layout
+
+\begin_layout LyX-Code
+http://markas-al-nour.org 
+\begin_inset Newline newline
+\end_inset
+
+info@markas-al-nour.org
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/profeda-logo.png
+	lyxscale 40
+	width 3cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "10cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+ProFeDA
+\begin_inset Newline newline
+\end_inset
+
+Linus Gasser
+\begin_inset Newline newline
+\end_inset
+
+Tel:
+\begin_inset space ~
+\end_inset
+
++235 62 15 43 52
+\end_layout
+
+\begin_layout LyX-Code
+http://profeda.org
+\end_layout
+
+\begin_layout LyX-Code
+info@profeda.org
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Autres
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "11cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout LyX-Code
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Mahamat Haroun Abakar - Tchad-Amitié - mahathar2@yahoo.fr
+\end_layout
+
+\begin_layout Itemize
+Simon Neuhaus - idées et corrections
+\end_layout
+
+\begin_layout Itemize
+Viviane Gasser - correction orthographe
+\end_layout
+
+\begin_layout LyX-Code
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Auteurs-et-initiataires"
+
+\end_inset
+
+Auteurs et initiatrices de ce document
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Comment utiliser ce document
+\end_layout
+
+\begin_layout Standard
+L'informatique est un sujet qui évolue en tout temps, et il est parfois
+ difficile de prévoir les sujets à enseigner en étant sûr qu'ils seront
+ encore d'actualité et pertinents d'ici quelques années.
+ Pour cette raison il est important de savoir lire, comprendre et travailler
+ un document.
+\end_layout
+
+\begin_layout Standard
+Ce document se veut un document de travail.
+ Cela veut dire qu'il faut un engagement de la part des enseignants et de
+ la part des étudiants.
+ Voici les engagements à prendre:
+\end_layout
+
+\begin_layout Subsection
+Pour les enseignants
+\end_layout
+
+\begin_layout Standard
+En tant qu'enseignant, il faut s'assurer que
+\end_layout
+
+\begin_layout Itemize
+les étudiants suivent le cours avec le document - ils le tiennent ouvert
+ à la bonne page
+\end_layout
+
+\begin_layout Itemize
+les notes sont prises non pour recopier le document, mais pour le compléter
+\end_layout
+
+\begin_layout Itemize
+tout le monde a son document avec lui
+\end_layout
+
+\begin_layout Subsection
+Pour les étudiants
+\end_layout
+
+\begin_layout Standard
+Pour les étudiants, il est important de
+\end_layout
+
+\begin_layout Itemize
+ne pas copier le texte qui se trouve déjà dans le document
+\end_layout
+
+\begin_layout Itemize
+lire et poser des questions sur le texte dans le document
+\end_layout
+
+\begin_layout Itemize
+bien suivre les exercices
+\end_layout
+
+\begin_layout Part
+Introduction
+\end_layout
+
+\begin_layout Section
+Petite histoire de l'informatique
+\end_layout
+
+\begin_layout Standard
+L'informatique est le domaine d'activité scientifique, technique et industriel
+ concernant le traitement automatique de l'information par des machines
+ telles que : calculateur, système embarqué, ordinateur, console de jeux
+ vidéo, robots, automate, etc.
+\end_layout
+
+\begin_layout Standard
+Le terme « informatique » désigne à l'origine l'ensemble des activités liées
+ à la conception et à l'emploi des ordinateurs, d'un point de vue principalement
+ technique.
+ Dans le vocabulaire universitaire américain, il désigne surtout l'informatique
+ théorique : un ensemble de sciences formelles qui ont pour objet l'étude
+ de la notion d'information et des procédés de traitement automatique de
+ celle-ci, toujours l'algorithmique, parfois aussi le traitement du signal,
+ la calculabilité ou la théorie de l'information.
+ L'autre sens du mot (conception, déploiement et usage en entreprise) est
+ désigné sous le nom de Data Processing.
+\end_layout
+
+\begin_layout Standard
+L'automatisation du traitement d'informations est bien plus ancienne que
+ l'invention de l'ordinateur.
+ Les premières machines de traitement automatisé étaient des machines mécaniques
+ construites au XVIIe siècle.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "5cm"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/eniac.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+L'ENIAC - un des premiers ordinateurs
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+L'ENIAC (acronyme de l'expression anglaise Electronic Numerical Integrator
+ Analyser and Computer), est le premier ordinateur entièrement électronique
+ construit pour être Turing-complet.
+ Il peut être reprogrammé pour résoudre, en principe, tous les problèmes
+ de calcul.
+\end_layout
+
+\begin_layout Standard
+Il est précédé en 1941 par le Z3 allemand, une machine programmable mais
+ encore électromécanique (utilisation de relais), et par l'ordinateur britanniqu
+e Colossus.
+ L'ENIAC et le Colossus utilisaient des tubes à vide.
+\end_layout
+
+\begin_layout Section
+Utilité de l’informatique
+\end_layout
+
+\begin_layout Standard
+A la base l'informatique a seulement été utilisé pour résoudre des problèmes
+ mathématiques, mais entretemps il y a beaucoup de choses qui sont possibles
+ grâce à cet outil:
+\end_layout
+
+\begin_layout Itemize
+Automatiser le traitement des données (comptabilités, inscriptions, administrati
+on)
+\end_layout
+
+\begin_layout Itemize
+Transmettre des données à travers le monde (rapports, résultats de recherche)
+\end_layout
+
+\begin_layout Itemize
+Stockage et recherche de l'information (films, musique, documents, Google)
+\end_layout
+
+\begin_layout Itemize
+Traiter les données pour comprendre les liens (présentations, statistiques,
+ recherche)
+\end_layout
+
+\begin_layout Itemize
+Récréation avec des jeux et les réseaux sociaux
+\end_layout
+
+\begin_layout Itemize
+Communication entre individus (courriel, Facebook, Google+)
+\end_layout
+
+\begin_layout Section
+Matériel (Hardware)
+\end_layout
+
+\begin_layout Standard
+On distingue les ordinateurs de bureau, qui sont composés de plusieurs boîtiers,
+ et les ordinateurs portables, qui contiennent tout le matériel ensemble.
+ On a aussi les périphériques qui sont branchés à l'ordinateur.
+\end_layout
+
+\begin_layout Subsection
+L’ordinateur bureautique
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "5cm"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/ordinateur_bureau.png
+	lyxscale 50
+	width 4cm
+	clip
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Un ordinateur de bureau complet
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L’ordinateur de bureau est formé de:
+\end_layout
+
+\begin_layout Itemize
+une unité centrale
+\end_layout
+
+\begin_layout Itemize
+un écran ou moniteur
+\end_layout
+
+\begin_layout Itemize
+les périphériques (au moins une souris et un clavier)
+\end_layout
+
+\begin_layout Standard
+On trouve le plus souvent les ordinateurs de bureau dans les grands entreprises
+ et les ONGs.
+ Souvent ces ordinateurs sont plus fiables et plus robustes, mais ils consomment
+ plus d'énergie qu'un ordinateur portable.
+\end_layout
+
+\begin_layout Subsection
+L’ordinateur portable
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 7
+placement o
+overhang 0in
+width "5cm"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/ordinateur_portable.png
+	lyxscale 50
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Un ordinateur portable
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+L’ordinateur portable regroupe l'unité centrale et quelques périphériques
+ en un seul boîtier.
+ Un des plus grands avantages vis-à-vis de l'ordinateur de bureau est le
+ fait qu'il intègre directement une batterie.
+ Il a donc une certaine autonomie, ce qui permet une utilisation même s'il
+ n'y a pas une prise à portée de main.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Si vous avez une souris externe, vous pouvez la brancher sur votre port
+ USB.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Utiliser la souris
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Périphériques & branchements
+\end_layout
+
+\begin_layout Standard
+Il est possible de brancher plusieurs périphériques comme une caméra, une
+ imprimante, une clé USB ou une carte mémoire dans votre ordinateur.
+\end_layout
+
+\begin_layout Standard
+L’unité centrale se branche sur la prise électrique.
+ Les périphériques se branchent dans l’unité centrale par les différents
+ ports.
+ L’écran a deux câbles : le premier va se brancher à l’unité centrale et
+ l’autre se branche à l’électricité.
+\end_layout
+
+\begin_layout Standard
+Parmi les périphériques les plus connus, on trouve:
+\end_layout
+
+\begin_layout Description
+Imprimante pour mettre sur papier les documents et images de l'ordinateur
+\end_layout
+
+\begin_layout Description
+Scanneur pour numériser un document, c'est-à-dire de le rendre accessible
+ depuis l'ordinateur
+\end_layout
+
+\begin_layout Description
+Modem pour communiquer avec un réseau distant, le plus souvent par internet
+\end_layout
+
+\begin_layout Description
+Caméra pour capter des images et les stocker dans l'ordinateur
+\end_layout
+
+\begin_layout Description
+Clé
+\begin_inset space ~
+\end_inset
+
+USB pour enregistrer et transmettre des données
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float algorithm
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Regardez votre ordinateur, ouvrez-le, et découvrez les différentes parties
+ décrites avant: l'écran, la souris, le clavier et les ports externes.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Découvrir l'ordinateur
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tablettes et Smartphones
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "5cm"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/Google-Tablet.jpg
+	lyxscale 20
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Une tablette
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dans le cadre de la miniaturisation, la dernière vague est ce qu'on appelle
+ les Tablettes et les Smartphones.
+ Tous les deux sont livrés sans clavier avec des touches, mais sont composés
+ d'un écran tactile, c'est-à-dire un écran qui demande à être touché! De
+ cette manière, ces derniers ordinateurs permettent de travailler sans clavier
+ ni souris, mais souvent sur une surface assez petite.
+\end_layout
+
+\begin_layout Standard
+Les avantages de ces tablettes et smartphones sont la taille et le coût
+ inférieur aux laptops et aux ordinateurs de bureau.
+ Par contre il est difficile de les utiliser pour des travaux étendus comme
+ écrire un fascicule pour des cours d'informatique, par exemple...
+\end_layout
+
+\begin_layout Section
+Software
+\end_layout
+
+\begin_layout Subsection
+Système d’exploitation
+\end_layout
+
+\begin_layout Standard
+Quand vous allumez un ordinateur, le 
+\emph on
+système d'exploitation
+\emph default
+ est le premier logiciel qui démarre.
+ Il prend ainsi la main sur l'ordinateur et l'apprête pour l'utilisateur.
+ Il est indispensable au bon fonctionnement de votre ordinateur, sans lui,
+ rien n'est possible.
+\end_layout
+
+\begin_layout Standard
+Il y a aussi plusieurs systèmes d’exploitation qui sont présentés dans le
+ tableau suivant :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+Entreprise
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+Système d'exploitation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "30col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+Version
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Microsoft
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Windows
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+XP
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Apple
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MacOSX
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.9 (Mavericks)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.10 (Yosemite)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+iOS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Logiciel libre
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GNU/Linux
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ubuntu
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LinuxMint
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="left" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+RedHat
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="left" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Android
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.4 (KitKat)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5 (Lollipop)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Entreprises et leurs produits
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Logiciels ou Programmes d’application
+\end_layout
+
+\begin_layout Standard
+Les applications vous permettent de réaliser des tâches pratiques avec votre
+ ordinateur.
+ Par exemple:
+\end_layout
+
+\begin_layout Itemize
+Microsoft Office 2013 contient plusieurs logiciels, tel que le Word et le
+ Excel
+\end_layout
+
+\begin_layout Itemize
+Microsoft Word 2013 est un 
+\emph on
+traitement de texte 
+\emph default
+pour écrire des documents
+\end_layout
+
+\begin_layout Itemize
+Microsoft Excel 2013 est un 
+\emph on
+tableur 
+\emph default
+qui permet de faire des calculs avec des chiffres
+\end_layout
+
+\begin_layout Itemize
+Mozilla Firefox est un 
+\emph on
+navigateur 
+\emph default
+qui permet d'utiliser internet
+\end_layout
+
+\begin_layout Itemize
+iTunes est un 
+\emph on
+logiciel de musique 
+\emph default
+qui peut jouer vos chansons préférées
+\end_layout
+
+\begin_layout Subsection
+Différences Windows XP, 7 et 8.x
+\end_layout
+
+\begin_layout Standard
+En 2001, Microsoft a sorti la version XP de son système d'exploitation.
+ C'était une version très populaire qui a été remplacé par la version 7
+ en 2009.
+ A marquer que Windows Vista qui est sortit entre les deux n'a jamais eu
+ beaucoup de succès.
+ De même Windows 8 a rencontré beaucoup de résistances, surtout dû à sa
+ nouvelle façon de présenter le bureau et les applications.
+ Seulement la mise à jour sur Windows 8.1 a calmé les critiques et permet
+ une utilisation plus aisée.
+\end_layout
+
+\begin_layout Standard
+La grande différence avec le Windows 8 est le fait que Microsoft a commencé
+ d'inclure les fonctionnalités qu'on trouve normalement sur une tablette.
+ Ce qui a donné que beaucoup d'ordinateurs portables qui sortent avec Windows
+ 8.x ont un écran tactile pour permettre certaines fonctions comme sur une
+ tablette.
+ On verra dans la prochaine leçon comment utiliser ces nouvelles fonctions.
+\end_layout
+
+\begin_layout Part
+Premiers pas avec l'ordinateur
+\end_layout
+
+\begin_layout Section
+Allumer l’ordinateur
+\end_layout
+
+\begin_layout Standard
+Il est très important de bien voir ce bouton qui se trouve sur votre ordinateur.
+ Ce bouton vous permet d’allumer votre ordinateur si vous appuyez de dessus.
+ Si vous appuyez trop fort il se casse.
+ Appuyer donc légèrement jusqu’au bout et attendez le démarrage du système.
+\end_layout
+
+\begin_layout Section
+Les sessions Windows
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 12
+placement O
+overhang 0in
+width "5cm"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/win7_session.png
+	lyxscale 45
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/ouverture_session.png
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Image de l'ouverture de session
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Le système d'exploitation Windows permet à un ordinateur d'être utilisé
+ par plusieurs personnes.
+ Chaque personne peut avoir ses documents dans un endroit sécurisé où il
+ a un accès particulier.
+ Cet endroit s'appelle 
+\emph on
+session
+\emph default
+.
+ Souvent les ordinateurs n'ont qu'une seule session, et en allumant l'ordinateur
+ cette session s'ouvre automatiquement.
+ Dans notre cours, plusieurs sessions sont disponibles pour les différents
+ cours.
+\end_layout
+
+\begin_layout Standard
+Une session peut être ouverte, puis fermée.
+ Il est aussi possible de changer de session, pour travailler sous un autre
+ compte, puis de retourner dans la première session avec tous les logiciels
+ présents comme avant.
+\end_layout
+
+\begin_layout Subsection
+Ouverture d'une session
+\end_layout
+
+\begin_layout Standard
+Pour ouvrir une session, cliquez sur l'icône de votre compte utilisateur
+ sur l'écran d'accueil puis tapez votre mot de passe.
+ 
+\end_layout
+
+\begin_layout Subsection
+Fermeture de session sous Windows 8.x
+\end_layout
+
+\begin_layout Standard
+Pour fermer une session, aller dans la 
+\emph on
+page d'accueil
+\emph default
+ et appuyez sur votre nom d'utilisateur en haut à droite, puis choisissez
+ 
+\emph on
+déconnecter
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images_13/win81u1-accueil.jpg
+	lyxscale 50
+	width 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fermeture et changement de session
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+Vous pouvez identifier l'utilisateur en cours en cliquant sur Démarrer puis
+ en lisant le nom du compte situé dans le menu Démarrer.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lorsque vous vous déconnectez d'un ordinateur, vous fermez votre compte
+ utilisateur mais l'ordinateur reste sous tension pour faciliter l'accès
+ lors de votre prochaine ouverture de session.
+\end_layout
+
+\begin_layout Subsection
+Changer de session sous Windows 8.x
+\end_layout
+
+\begin_layout Standard
+Vous pouvez aussi avoir plusieurs sessions ouvertes en même temps.
+ Mais ceci demande plus de mémoire RAM, parce que pour chaque session ouverte,
+ Windows doit garder les données en mémoire.
+ Il est souvent préférable de seulement 
+\emph on
+fermer la session
+\emph default
+ et d'ouvrir une nouvelle.
+ Pour changer d'utilisateur sans fermer la session vous pouvez faire comme
+ suit:
+\end_layout
+
+\begin_layout Enumerate
+Cliquez sur le bouton Windows, puis sur le petit triangle à droite du bouton
+ 
+\emph on
+arrêter
+\emph default
+, puis choisir 
+\emph on
+Changer d'utilisateur
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+Sur l'écran d'accueil, cliquez sur une autre icône de compte utilisateur.
+ 
+\end_layout
+
+\begin_layout Standard
+Windows affiche le Bureau et les paramètres du nouvel utilisateur.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+Le mot de passe est une sécurité qui permet d'éviter que des personnes non-autor
+isées accèdent à vos données.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Différences avec Windows 7 et XP
+\end_layout
+
+\begin_layout Standard
+Pour les ordinateurs qui sont encore équipés d'une version Windows 7 ou
+ même XP, il y a une petite différence pour fermer et changer de session:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Fermeture cliquez sur 
+\emph on
+Démarrer
+\emph default
+, sur 
+\emph on
+Déconnexion
+\emph default
+, puis encore une fois sur 
+\emph on
+Déconnexion
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Changer cliquez sur 
+\emph on
+Démarrer
+\emph default
+, sur 
+\emph on
+Déconnexion
+\emph default
+, puis sur 
+\emph on
+Changer d'utilisateur
+\end_layout
+
+\begin_layout Section
+Éteindre l'ordinateur
+\end_layout
+
+\begin_layout Standard
+Depuis la 
+\emph on
+page d'accueil
+\emph default
+ vous cliquez sur le nom d'utilisateur en haut à droite et vous choisissez
+ 
+\emph on
+éteindre
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Cette action éteint Windows afin que vous puissiez mettre l'ordinateur hors
+ tension en toute sécurité.
+ De nombreux ordinateurs se mettent automatiquement hors tension si on ne
+ les utilise pas pendant un certain moment ou si on ferme le couvercle.
+\end_layout
+
+\begin_layout Subsection
+Différences avec Windows XP et 7
+\end_layout
+
+\begin_layout Standard
+Pour éteindre l'ordinateur sous Windows XP, vous cliquez sur 
+\emph on
+Démarrer,
+\emph default
+ puis
+\emph on
+ Arrêter
+\emph default
+ et il va vous afficher les trois options qui sont :
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Mettre
+\begin_inset space ~
+\end_inset
+
+en
+\begin_inset space ~
+\end_inset
+
+veille L’ordinateur est en pause mais il est sous tension
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Éteindre Arrêter l’ordinateur définitivement 
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Redémarrer Arrêter l’ordinateur et redémarrer automatiquement
+\end_layout
+
+\begin_layout Section
+Utilisation de la souris
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "5cm"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/position_correcte_flipped.png
+	lyxscale 80
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Position devant l'ordinateur
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Attraper la souris avec la main droite, dans la même direction que votre
+ ordinateur.
+ Regarder l’image sur le côté qui montre la position d’un utilisateur devant
+ son ordinateur.
+\end_layout
+
+\begin_layout Standard
+La souris permet de déplacer le 
+\emph on
+curseur
+\emph default
+ sur l'écran, qui est tantôt en flèche, tantôt d'un autre aspect.
+ Ce curseur correspond à l'endroit où vous pouvez écrire ou interagir avec
+ l'ordinateur.
+\end_layout
+
+\begin_layout Standard
+Pour 
+\emph on
+exécuter
+\emph default
+ un programme ou 
+\emph on
+ouvrir
+\emph default
+ un fichier / dossier dans le Bureau ou dans un dossier quelconque, on fait
+ un 
+\emph on
+double-clic
+\emph default
+ en une seconde avec la partie gauche de la souris sur l’icône.
+\end_layout
+
+\begin_layout Standard
+Parfois 
+\emph on
+un seul clic
+\emph default
+ gauche sur le lien suffit pour exécuter ou ouvrir le programme.
+\end_layout
+
+\begin_layout Standard
+La partie droite de la souris vous permet de choisir une option pour réaliser
+ votre opération.
+\end_layout
+
+\begin_layout Standard
+La roulette qui se trouve entre les deux parties gauche et droite vous permet
+ de faire défiler les pages, les fichiers ou les sous-dossiers dans un dossier.
+\end_layout
+
+\begin_layout Standard
+On peut également faire un 
+\emph on
+glisser-déposer
+\emph default
+ pour prendre des icônes, du texte ou une fenêtre et le placer dans un autre
+ endroit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+
+\emph on
+Glisser-déposer
+\emph default
+ ou 
+\emph on
+cliquer-glisser
+\emph default
+ signifie qu'on appuie sur le bouton pour attraper une icône et qu'on garde
+ le bouton appuyé tout en déplaçant la souris.
+ Une fois qu'on est arrivé à destination, on peut lâcher le bouton.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Utilisation Windows 8
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename Images_13/tiles_arrow.png
+	lyxscale 40
+	width 80col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Entretemps beaucoup de gens connaissent le fonctionnement de Windows 7,
+ et ça vaut la peine de discuter quelques changements importants avec le
+ Windows 8.
+ Tout d'abord l'
+\emph on
+écran d'accueil
+\emph default
+ sous Windows 8 se présente sous formes de 
+\emph on
+Tiles
+\emph default
+ ou 
+\emph on
+Calques
+\emph default
+.
+ Chaque calque représente un logiciel ou une fonction du système d'exploitation.
+ Si vous avez une connexion internet, il est même possible que les calques
+ vous montrent le temps qu'il fait ailleurs, les dernières nouvelles ou
+ alors les courriels qui sont en attente.
+\end_layout
+
+\begin_layout Standard
+En passant la souris 
+\emph on
+au-delà
+\emph default
+ du bord des calques, on peut visualiser les autres calques comme si on
+ avait un grand tableau et qu'on ne visualise qu'une partie à la fois.
+\end_layout
+
+\begin_layout Standard
+Une fois qu'on a passé sur le côté des calques se montre une flèche en bas
+ à gauche qui permet de voir les calques non visibles.
+ C'est là aussi qu'on peut ajouter des calques sur l'écran d'accueil.
+\end_layout
+
+\begin_layout Standard
+On peut changer depuis les calques au bureau en cliquant sur le calque 
+\emph on
+Bureau
+\emph default
+ qui se trouve souvent en bas à gauche.
+ Avec le Windows 8.1 vous avez le bouton en bas à gauche pour retourner à
+ l'écran d'accueil, avec le Windows 8 vous devez faire apparaître les 
+\emph on
+icônes (Charm)
+\emph default
+ pour choisir 
+\emph on
+Start
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+Vous pouvez aussi utiliser la touche 
+\emph on
+Windows
+\emph default
+ seule pour aller à la page d'accueil, ou la combinaison 
+\emph on
+Windows + D
+\emph default
+ pour le bureau.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Fonctions spéciales écran et pavé tactile
+\end_layout
+
+\begin_layout Standard
+Quelques fonctions importantes se trouvent cachées dans Windows 8.
+ Ces fonctions sont facilement accessible avec une tablette ou un ordinateur
+ doté d'un écran tactile, mais un peu plus difficilement si on a seulement
+ une souris.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Icônes si vous passez de l'extérieur droite à l'intérieur de l'écran ou
+ du pavé tactile, vous pouvez faire apparaître les 
+\emph on
+icônes (Charm)
+\emph default
+ qui vous permet d'accéder facilement à certains fonctions de Windows.
+ Avec la souris il faut attendre dans un des coins à droite (haut ou bas)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Ecran
+\begin_inset space ~
+\end_inset
+
+d'accueil on fait comme pour le tableau de bord, mais on reste une demie-seconde
+ sur l'écran ou le pavé tactile, et on va faire apparaître l'écran d'accueil
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Changer
+\begin_inset space ~
+\end_inset
+
+applications si vous avez plusieurs applications ouvertes, vous pouvez changer
+ entre celles-ci en passant de l'extérieur du côté gauche à l'intérieur
+ de l'écran ou du pavé tactile.
+ Ceci ne marche que pour les nouvelles applications Windows 8
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Toutes
+\begin_inset space ~
+\end_inset
+
+les
+\begin_inset space ~
+\end_inset
+
+applications il faut aller sur l'
+\emph on
+écran d'accueil
+\emph default
+, puis il faut bouger la souris et cliquer sur la flèche en bas à gauche,
+ ou 
+\emph on
+déplacer
+\emph default
+ l'écran vers en haut avec l'écran tactile
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Menu
+\begin_inset space ~
+\end_inset
+
+supplémentaire quelques applications vous montrent des fonctionnalités supplémen
+taires si vous passez de l'extérieur bas à l'intérieur de l'écran ou du
+ pavé tactile
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Agrandir en mettant deux doigts et en les élargissants sur l'écran ou le
+ pavé tactile, on peut agrandir certains éléments comme des images ou le
+ texte
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Rapetisser en mettant deux doigts écartés et en les serrants sur l'écran
+ ou le pavé tactile, on peut faire rapetisser certains éléments comme des
+ images ou le texte
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Recherche pour accéder rapidement à un logiciel ou un document, on peut
+ appuyer la 
+\emph on
+touche Windows
+\emph default
+ ensemble avec 
+\emph on
+S
+\emph default
+ (pour Search, Anglais pour rechercher), puis entrer les mots clés
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+Pour voir les programmes installés sur votre ordinateur, allez dans l'écran
+ d'accueil et cherchez la flèche en bas à gauche qui pointe vers le bas.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Découvrir les logiciels installés
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Le clavier d’un ordinateur
+\end_layout
+
+\begin_layout Standard
+Les claviers sont conçus en fonction des langues que la personne veut utiliser.
+\end_layout
+
+\begin_layout Itemize
+Le clavier français commence avec les touches AZERTY
+\end_layout
+
+\begin_layout Itemize
+Le clavier anglais commence avec les touches QWERTY.
+\end_layout
+
+\begin_layout Itemize
+Le clavier suisse commence avec les touches QWERTZ.
+\end_layout
+
+\begin_layout Standard
+Prenons le cas du clavier AZERTY pour ce cours, voir la graphique ci-joint.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/Clavier-Azerty-nb.png
+	lyxscale 30
+	height 90theight%
+	rotateAngle 90
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Le clavier AZERTY d'un ordinateur
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Touches spéciales
+\end_layout
+
+\begin_layout Standard
+La touche la plus grande est l’
+\emph on
+espace
+\emph default
+ qui vous permet de séparer les mots.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+Il ne faut pas utiliser la touche Espace pour décaler des lignes, plus d'un
+ espace à la fois est mauvais!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La touche 
+\emph on
+Supprimer / Arrière
+\emph default
+ efface les caractères à gauche du curseur.
+\end_layout
+
+\begin_layout Standard
+La touche
+\emph on
+ Effacer
+\emph default
+ efface les caractères à droite du curseur.
+\end_layout
+
+\begin_layout Standard
+La touche 
+\emph on
+Entrée
+\emph default
+ ou 
+\emph on
+Enter
+\emph default
+ vous aide à faire des paragraphes.
+\end_layout
+
+\begin_layout Standard
+La touche 
+\emph on
+Shift
+\emph default
+ ou 
+\emph on
+Majuscule
+\emph default
+ vous donne deux possibilités: d'abord vous pouvez l'utiliser pour écrire
+ des majuscules, ensuite vous pouvez écrire des chiffres.
+ Il faut maintenir la touche 
+\emph on
+Shift 
+\emph default
+enfoncée, puis appuyer sur la touche désirée.
+\end_layout
+
+\begin_layout Standard
+Si vous appuyez une fois sur la touche 
+\emph on
+Verr.
+ Shift 
+\emph default
+/ 
+\emph on
+Shift lock
+\emph default
+ ou 
+\emph on
+Caps lock
+\emph default
+, vous verrez une lumière s'allumer.
+ Ceci signifie que la touche est active.
+ Elle a le même rôle que celle de shift.
+ Pour la désactiver, appuyer encore une fois dessus.
+ 
+\end_layout
+
+\begin_layout Standard
+La touche 
+\emph on
+Tab
+\emph default
+ulation fait un espace plus grand que celui de la touche espace.
+ Elle peut faire un espace mesuré à l'aide du taquet.
+\end_layout
+
+\begin_layout Standard
+La touche 
+\emph on
+Alt Gr
+\emph default
+ vous permet d'obtenir encore d'avantage de signes, un peu comme la touche
+ 
+\emph on
+shift
+\emph default
+.
+ Ainsi vous pouvez faire des #, {, [ et autres.
+\end_layout
+
+\begin_layout Standard
+Vous trouvez aussi quatre touches avec des flèches qui permettent de déplacer
+ le curseur en haut, en bas, à gauche et à droite.
+\end_layout
+
+\begin_layout Standard
+En résumé, si vous tapez sur les touches qui portent une lettre, celle-ci
+ va s'écrire en minuscule.
+ Si vous utilisez la touche 
+\emph on
+shift
+\emph default
+, vous écrivez en MAJUSCULES, et avec la touche 
+\emph on
+Alt Gr
+\emph default
+ vous pouvez faire des caractères spéciaux.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0pt">
+<column alignment="left" valignment="top" width="80line%">
+<row>
+<cell multirow="3" alignment="left" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+à
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+@
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si vous appuyez simplement sur la touche, l'ordinateur va écrire: à
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si vous utilisez la touche 
+\emph on
+shift
+\emph default
+ en appuyant, l'ordinateur va écrire: 0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Si vous utilisez la touche 
+\emph on
+Alt Gr
+\emph default
+ en appuyant, l'ordinateur va écrire: @
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Regardez la touche en haut à droite sur votre clavier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Cas spéciaux
+\end_layout
+
+\begin_layout Standard
+Les accents non-disponible sur le clavier se font en appuyant brièvement
+ sur la touche de l'accent correspondant, suivi de la lettre.
+ Ainsi appuyez la touche ^, suivi de o pour produire le ô.
+ Il est important de ne pas garder la touche de l'accent enfoncée, contrairement
+ au 
+\emph on
+Shift
+\emph default
+ ou au 
+\emph on
+Alt Gr
+\emph default
+.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Positionnement-des-doigts"
+
+\end_inset
+
+Positionnement des doigts
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "5cm"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/mains_sur_clavier.png
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+La position des mains sur le clavier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+Comme vous savez maintenant comment trouver tous les caractères, essayez
+ encore de positionner bien vos doigts exactement comme ceux qui se trouvent
+ sur l’image ci-contre.
+ L'index de la main gauche doit reposer sur la touche 
+\begin_inset Quotes fld
+\end_inset
+
+f
+\begin_inset Quotes frd
+\end_inset
+
+, tandis que l'index de la main droite doit reposer sur la touche 
+\begin_inset Quotes fld
+\end_inset
+
+j
+\begin_inset Quotes frd
+\end_inset
+
+.
+ Les autres doigts de la main reposent sur les touches à côté.
+ Pour accéder aux touches au-dessus et en-dessous, il faut faire le moins
+ de déplacements possible.
+\end_layout
+
+\begin_layout Standard
+Le fait d'écrire avec les 10 doigts sans regarder le clavier s'appelle 
+\begin_inset Quotes fld
+\end_inset
+
+dactylographie
+\begin_inset Quotes frd
+\end_inset
+
+ et permet d'écrire beaucoup plus rapidement et de directement s'apercevoir
+ si on a mal écrit quelque chose.
+ L'apprentissage de la dactylographie se fait avec beaucoup d'exercices.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\family typewriter
+azertyuiop, qsdfghjklm, wxcvbn;
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+AZERTYUIOP, QSDFGHJKLM, WXCVBN.
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+1234567890°+
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+&é
+\begin_inset Quotes erd
+\end_inset
+
+ ’(-è_çà)=
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+#{[|`^@]}
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+â ê î ô ä ë ï ö ù ;:!/
+\family default
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Exercice de clavier 1
+\begin_inset Newline newline
+\end_inset
+
+On va faire un exercice avec le programme Bloc note.
+ Pour démarrer Bloc note, cliquez sur le bouton Windows – Tous les programmes
+ – Accessoires – Bloc-note, puis écrivez tous les caractères qui se trouvent
+ sur le clavier.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\family typewriter
+Dieu dit: Que la lumière soit! Et la lumière fut.
+ Dieu vit que la lumière était bonne; et Dieu sépara la lumière d'avec les
+ ténèbres.
+\end_layout
+
+\begin_layout Plain Layout
+
+\family typewriter
+Dieu créa l'homme à son image, il le créa à l'image de Dieu, il créa l'homme
+ et la femme.
+\family default
+
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Exercice de clavier 2
+\begin_inset Newline newline
+\end_inset
+
+Comme dans l'exercice précédent, copiez le texte dans Bloc note.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Gestion des fenêtres
+\end_layout
+
+\begin_layout Section
+Changer la taille d'une fenêtre
+\end_layout
+
+\begin_layout Standard
+Cliquez sur le bouton adéquat dans le coin supérieur droit de la fenêtre:
+\end_layout
+
+\begin_layout Itemize
+Cliquez sur le premier bouton pour réduire la fenêtre à un bouton dans la
+ barre des tâches.
+ Pour rétablir la taille précédente de la fenêtre réduite, cliquez sur le
+ même bouton dans la barre des tâches
+\end_layout
+
+\begin_layout Itemize
+Cliquez sur le deuxième bouton pour augmenter la taille de la fenêtre afin
+ qu'elle occupe la totalité de l'écran
+\end_layout
+
+\begin_layout Itemize
+Une fois que vous avez agrandi une fenêtre, cliquez sur le deuxième bouton
+ pour rétablir la taille précédente de la fenêtre
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status collapsed
+
+\begin_layout Plain Layout
+Vous pouvez également double-cliquer sur la barre de titre de la fenêtre
+ afin de l'agrandir ou de rétablir sa taille précédente.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Pour redimensionner une fenêtre ouverte
+\end_layout
+
+\begin_layout Standard
+Pour modifier la largeur, pointez sur le bord gauche ou droit de la fenêtre.
+ Lorsque le pointeur se transforme en double flèche horizontale, faites
+ glisser le bord vers la droite ou la gauche.
+ 
+\end_layout
+
+\begin_layout Standard
+Pour modifier la hauteur, pointez sur le bord supérieur ou inférieur de
+ la fenêtre.
+ Lorsque le pointeur se transforme en double flèche verticale, faites glisser
+ le bord vers le haut ou le bas.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status collapsed
+
+\begin_layout Plain Layout
+Vous ne pouvez pas redimensionner une fenêtre lorsqu'elle est affichée en
+ plein écran (agrandie).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pour modifier la hauteur et la largeur simultanément, pointez sur le coin
+ d'une fenêtre.
+ Lorsque le pointeur se transforme en double flèche diagonale, faites glisser
+ le bord dans n'importe quel sens.
+\end_layout
+
+\begin_layout Section
+Pour démarrer un programme
+\end_layout
+
+\begin_layout Standard
+Cliquez sur Démarrer, puis sur le programme à ouvrir.
+ Pour ouvrir un programme que vous ne voyez pas dans le menu Démarrer, pointez
+ sur Tous les programmes, naviguez parmi les menus jusqu’au programme souhaité,
+ puis cliquez sur ce dernier.
+ Quand vous ouvrez le programme, Windows l’affiche automatiquement dans
+ le menu Démarrer.
+ Une fois que vous avez démarré un programme, un bouton le représentant
+ apparaît dans la barre des tâches.
+ Pour passer d'un programme en cours d'exécution à un autre, cliquez sur
+ le bouton correspondant dans la barre des tâches.
+ 
+\end_layout
+
+\begin_layout Standard
+Si un programme n'apparaît pas dans le menu Démarrer ou dans un de ses sous-menu
+s, vous pouvez lancer une recherche.
+ Pour plus d'informations, cliquez sur Rubriques connexes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status collapsed
+
+\begin_layout Plain Layout
+Vous pouvez également quitter un programme en cliquant à l'extrémité droite
+ de la barre de titre.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Pour quitter un programme
+\end_layout
+
+\begin_layout Standard
+Dans le menu Fichier du programme dans lequel vous travaillez, cliquez sur
+ Quitter.
+ S'il y a des changements dans le documents qui ne sont pas encore enregistré,
+ le logiciel va vous demander s'il faut enregistrer les changements:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Oui ce qui va faire que vos changements ne sont pas perdus
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Non tout vos changements vont être perdus!
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Annuler vous fait retourner dans le logiciel, mais n'enregistre pas encore!
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+Vous pouvez aussi appuyer <ALT+F4> pour fermer un logiciel, ou alors <CTRL+Q>.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Éléments de la fenêtre
+\end_layout
+
+\begin_layout Standard
+La plupart des fenêtres ont les éléments suivants:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Barre
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+titre qui contient le nom du logiciel et des informations comme le nom du
+ document.
+ Vous pouvez aussi l'utiliser pour déplacer la fenêtre.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Boutons à la droite en haut il y a trois boutons: 
+\emph on
+réduire
+\emph default
+, 
+\emph on
+agrandir
+\emph default
+ et 
+\emph on
+fermer
+\emph default
+ la fenêtre
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Barre
+\begin_inset space ~
+\end_inset
+
+défilement avec cette barre vous pouvez faire défiler le document s'il est
+ plus grand que la fenêtre, voir aussi la section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Défilement"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Menu pour accéder aux fonctionnalités du logiciel.
+ Le Microsoft Office vous propose un 
+\emph on
+ruban
+\emph default
+ qui sert à la même chose.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Espace
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+travail là où vous pouvez entrer du texte, naviguer, jouer
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Bordure avec eux vous pouvez agrandir ou réduire la fenêtre dans diverses
+ sens
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Graphics
+	filename Images/fenetre_exemple.png
+	lyxscale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Exercice sur les fenêtres
+\begin_inset Newline newline
+\end_inset
+
+Cherchez les différents éléments de cette fenêtre.
+ Après ouvrez un 
+\emph on
+Bloc-notes
+\emph default
+ dans le bouton Windows, 
+\emph on
+Tous les programmes
+\emph default
+, 
+\emph on
+Accessoires
+\emph default
+ et testez les différents éléments.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+(Mes) Documents
+\end_layout
+
+\begin_layout Standard
+Le Microsoft Windows vous propose un endroit spécial pour enregistrer vos
+ documents.
+ Sous Windows XP le nom est 
+\emph on
+Mes Documents
+\emph default
+ et sous Windows 7 et Windows 8 le nom est 
+\emph on
+Documents
+\emph default
+.
+ Vous pouvez accéder à ces documents en cliquant sur le bouton 
+\emph on
+Explorateur
+\emph default
+ (icône jaune), puis choisir 
+\emph on
+Documents
+\emph default
+.
+ Vous verrez alors une liste de tous vos documents enregistrés jusque maintenant.
+\end_layout
+
+\begin_layout Part
+L'onglet fichier et la page d'accueil
+\end_layout
+
+\begin_layout Standard
+En haut à gauche de chaque logiciel de Microsoft Office (Word, Excel, ...)
+ vous trouvez l'onglet 
+\emph on
+Fichier
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "5cm"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images_13/dialogue_bouton_fichier.PNG
+	lyxscale 20
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Le dialogue de l'onglet 
+\emph on
+Fichier
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A l'aide de cet onglet vous pouvez facilement accéder à plusieurs fonctionnalité
+s pour votre document.
+ Vous verrez plus tard que certaines de ces fonctions sont aussi accessibles
+ directement dans l'interface du Microsoft Word.
+\end_layout
+
+\begin_layout Standard
+Une fois que vous cliquez sur l'onglet Fichier, vous avez entre autre les
+ options suivantes (on ne verra pas les options de partage et d'exportations):
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Retour La flèche tout en haut qui pointe vers la gauche vous permet de retourner
+ vers votre document Word
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Nouveau document
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Ouvrir un document existant
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Enregistrer le document actuel
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Enregistrer
+\begin_inset space ~
+\end_inset
+
+sous changer le nom du document et l'enregistrer
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Imprimer le document actuel
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Exporter pour créer des fichiers 
+\emph on
+PDF
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+Le Microsoft Office 2007 a un bouton 
+\emph on
+Office
+\emph default
+ en haut à gauche qui ressemble à ça:
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "c"
+use_parbox 1
+use_makebox 0
+width "3cm"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/bouton_microsoft.png
+	width 1cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Enregistrer votre document
+\end_layout
+
+\begin_layout Standard
+Procédez comme suit dans les programmes Microsoft Office 2013, tel que Word,
+ Excel ou PowerPoint:
+\end_layout
+
+\begin_layout Itemize
+Cliquez sur l'onglet 
+\emph on
+Fichier
+\emph default
+, puis cliquez sur 
+\emph on
+Enregistrer
+\end_layout
+
+\begin_layout Itemize
+Choisissez le dossier 
+\emph on
+Documents
+\emph default
+ dans lequel vous classez votre fichier
+\end_layout
+
+\begin_layout Itemize
+Remplacez le nom du ficher par défaut par le nom que vous voulez donner
+ à votre fichier
+\end_layout
+
+\begin_layout Itemize
+Cliquez sur 
+\emph on
+Enregistrer
+\end_layout
+
+\begin_layout Standard
+Le raccourci clavier pour enregistrer le fichier est le 
+\emph on
+CTRL+S.
+\end_layout
+
+\begin_layout Section
+Nouveau document
+\end_layout
+
+\begin_layout Standard
+Pour créer un nouveau document, vous passez aussi par l'onglet 
+\emph on
+Fichier
+\emph default
+, et choisissez 
+\emph on
+Nouveau
+\emph default
+.
+ Dans le dialogue qui suit, vous pouvez soit choisir un modèle pour votre
+ lettre, soit commencer un nouveau document tout vierge.
+\end_layout
+
+\begin_layout Standard
+Confirmez avec le bouton 
+\emph on
+Créer
+\emph default
+ en bas à droite pour commencer un nouveau document.
+\end_layout
+
+\begin_layout Section
+Ouvrir un document
+\end_layout
+
+\begin_layout Standard
+Les documents déjà enregistrés sont aussi disponibles à partir du Microsoft
+ Word.
+ Pour ceci vous passez par la commande 
+\emph on
+Ouvrir
+\emph default
+.
+ Maintenant vous pouvez choisir l'emplacement de votre document, normalement
+ dans le dossier 
+\emph on
+Documents
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Dans le fascicule IT-102 on verra aussi l'utilisation d'une clé USB.
+ Dans ce cas-là vous pouvez passer par 
+\emph on
+Ordinateur
+\emph default
+, puis sélectionner votre clé, et finalement copier le document de votre
+ choix sur l'ordinateur avant de le modifier.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status collapsed
+
+\begin_layout Plain Layout
+Vous pouvez également ouvrir un document depuis l'explorateur Windows, choisir
+ 
+\emph on
+Bibliothèque
+\emph default
+, puis 
+\emph on
+Documents
+\emph default
+.
+ Dans le menu 
+\emph on
+Démarrer 
+\emph default
+on trouve également le dossier 
+\emph on
+Documents
+\emph default
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Imprimer un document
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 7
+placement o
+overhang 0in
+width "4cm"
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/bouton_microsoft_7.png
+	lyxscale 20
+	width 4cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Bouton Windows
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Si vous avez attaché et installé une imprimante à votre ordinateur, vous
+ pouvez imprimer votre document actuel en utilisant la commande 
+\emph on
+Imprimer
+\emph default
+.
+\end_layout
+
+\begin_layout Section
+Page d'accueil
+\end_layout
+
+\begin_layout Standard
+Le Windows 8 a beaucoup changé vis-à-vis du Windows 7 pour ce qui va du
+ bouton Windows.
+ Il n'existe plus dans la version 8, et dans la version 8.1 le bouton Windows
+ fait revenir sur la page d'accueil.
+ A noter que la version Windows 10 va revenir à un bouton dans un style
+ comme le Windows 7...
+\end_layout
+
+\begin_layout Standard
+La page d'accueil contient aussi les logiciels installés.
+ Si on ne les trouve pas là-dedans, on peut cliquer avec le bouton droit
+ dans un espace vide, et choisir 
+\emph on
+Tous les applications
+\emph default
+ en bas à droite.
+ Maintenant on a aussi accès à tous les logiciels qui sont installés dans
+ l'ordinateur.
+\end_layout
+
+\begin_layout Standard
+Les documents sous Windows 8 sont disponible à partir du 
+\emph on
+Bureau.
+
+\emph default
+ Pour passer de la page d'accueil au bureau, il faut cliquer en bas à gauche
+ de l'écran.
+ Maintenant on a accès au 
+\emph on
+Explorateur de fichiers
+\emph default
+, le bouton jaune en bas à gauche, qui permet d'afficher les 
+\emph on
+Documents
+\emph default
+ déjà enregistrés.
+\end_layout
+
+\begin_layout Subsection
+Logiciels
+\end_layout
+
+\begin_layout Standard
+Si vous ne trouvez pas votre logiciel désiré dans la page d'accueil, vous
+ pouvez faire une recherche avec 
+\emph on
+Windows
+\emph default
++
+\emph on
+S
+\emph default
+, ou alors utiliser la flèche qui pointe vers le bas sur l'écran d'accueil
+ qui va vous amener à tout les logiciels.
+\end_layout
+
+\begin_layout Subsection
+Windows 7
+\end_layout
+
+\begin_layout Standard
+Windows 7 utilise le 
+\emph on
+bouton Windows 
+\emph default
+qui se trouve en bas à gauche de l'écran et permet un accès simple à tout
+ les logiciels, dossiers et documents disponible sur un ordinateur.
+ On peut l'utiliser pour démarrer un logiciel (Microsoft Word, Navigateur
+ Firefox, ...) ou pour rechercher un document déjà écrit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+Sous Windows XP il s'appelle le 
+\emph on
+bouton démarrage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Microsoft Word 2013
+\end_layout
+
+\begin_layout Standard
+C’est un programme de traitement de texte qui vous permet de faire un document
+ de format professionnel comme une lettre, un CV, un rapport d’activités,
+ des cartes de visite, une carte professionnelle, etc.
+ On va traiter ici la dernière version de ce logiciel, avec quelques références
+ pour les versions précédentes.
+\end_layout
+
+\begin_layout Section
+Ouvrir Microsoft Word 2013
+\end_layout
+
+\begin_layout Standard
+Faites une recherche avec 
+\emph on
+Windows
+\emph default
+ + 
+\emph on
+S
+\emph default
+ et entrez 
+\emph on
+Word
+\emph default
+, puis choisissez l'icône correspondant.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+Windows 7: Cliquer sur Démarrer – Tous les programmes – Microsoft Office
+ – Microsoft Word 2007
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Le programme Microsoft Word 2013 s’ouvre avec cet affichage:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images_13/accueil_word.PNG
+	lyxscale 40
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ouverture Word 2013
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sur la gauche vous voyez les derniers documents utilisés que vous pouvez
+ ouvrir avec un simple clic.
+ À la droite vous avez des exemples de documents pour que vous pouvez directemen
+t commencer à utiliser Word.
+ Pour les premiers pas, cliquez sur 
+\emph on
+Document vierge
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images_13/ruban_word_complet_annote.png
+	lyxscale 50
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Le 
+\emph on
+ruban
+\emph default
+ de Microsoft Office
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dans cette image vous voyez le 
+\emph on
+ruban
+\emph default
+ qui vous donne accès aux outils de traitement de texte.
+\end_layout
+
+\begin_layout Standard
+Les numéros sur le ruban donnent les noms des différentes parties suivantes :
+\end_layout
+
+\begin_layout Enumerate
+Onglet 
+\emph on
+Fichier
+\end_layout
+
+\begin_layout Enumerate
+Barre d’outils accès rapide
+\end_layout
+
+\begin_layout Enumerate
+Onglets
+\end_layout
+
+\begin_layout Enumerate
+Groupe
+\end_layout
+
+\begin_layout Enumerate
+Commandes
+\end_layout
+
+\begin_layout Standard
+Les commandes vous servent à exécuter des opérations sur votre texte.
+ Si vous voulez connaître la signification des commandes, mettez votre curseur
+ sur l’icône (G par exemple), attendez un peu et une petite explication
+ va apparaître (Gras par exemple).
+\end_layout
+
+\begin_layout Standard
+Attention ! Il faut d’abord sélectionner le texte avant de faire l’opération.
+\end_layout
+
+\begin_layout Standard
+Exemple: Pour mettre un mot, une phrase ou un paragraphe en gras, sélectionner
+ le texte et cliquer sur l’onglet Accueil – Groupe Police – G
+\end_layout
+
+\begin_layout Section
+L’aide Microsoft
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "5cm"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images_13/aide_Microsoft.PNG
+	lyxscale 50
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Le bouton d'aide avec le 
+\begin_inset Quotes fld
+\end_inset
+
+?
+\begin_inset Quotes frd
+\end_inset
+
+ en bleu.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si jamais vous avez des questions sur un sujet, vous trouverez l'aide Microsoft
+ en appuyant sur le bouton '?' (en haut à droite) ou en appuyant sur la
+ touche F1.
+ Dès que l'aide a démarré, vous pouvez écrire un (ou plusieurs) mots clés
+ pour chercher les articles qui correspondent à ce que vous cherchez.
+\end_layout
+
+\begin_layout Standard
+Une fois que vous avez pris l'habitude de chercher des fonctions dans l'aide,
+ vous êtes en route pour faire connaissance de toute la puissance du Microsoft
+ Word! N'hésitez surtout pas à essayer de trouver ce que vous cherchez.
+\end_layout
+
+\begin_layout Section
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Défilement"
+
+\end_inset
+
+Défilement
+\end_layout
+
+\begin_layout Standard
+Il y a plusieurs options pour défiler quand vous travaillez dans un document.
+ Plusieurs méthodes sont possibles : avec les touches (les flèches et PgUp,
+ PgDn), avec la barre de défilement, avec la roulette de la souris, ou avec
+ le trackpad.
+\end_layout
+
+\begin_layout Description
+Les
+\begin_inset space ~
+\end_inset
+
+flèches En utilisant les touches de flèche, vous allez changer la position
+ du curseur.
+ Si le curseur approche les limites de l'écran, la partie de document va
+ défiler pour que le curseur reste visible.
+\end_layout
+
+\begin_layout Description
+La
+\begin_inset space ~
+\end_inset
+
+roulette Avec la souris vous pouvez utiliser la petite roue pour faire un
+ défilement.
+ Il faut que curseur se trouve dans la partie de texte.
+\end_layout
+
+\begin_layout Description
+PgUp
+\begin_inset space ~
+\end_inset
+
+et
+\begin_inset space ~
+\end_inset
+
+PgDn Il y a aussi des touches qui vous permettent d'avancer (
+\emph on
+PgDn
+\emph default
+) ou de reculer (
+\emph on
+PgUp
+\emph default
+) dans un document.
+ Sur les claviers des laptops et nettops, il faut souvent faire une combinaison
+ de touches.
+\end_layout
+
+\begin_layout Description
+La
+\begin_inset space ~
+\end_inset
+
+barre
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+défilement La barre de défilement vous permet de défiler dans le document
+ indépendamment du curseur.
+ Si vous défilez avec cette barre et après vous appuyez sur les touches,
+ vous allez faire afficher encore la partie du document où se trouve le
+ curseur, mais vous allez en même temps perdre la vue d'écran où vous avez
+ défilé.
+\end_layout
+
+\begin_layout Description
+Le
+\begin_inset space ~
+\end_inset
+
+trackpad Sur les ordinateurs portables vous avez la zone qui sert à remplacer
+ la souris et qui contient une partie sensible pour le défilement.
+ La plupart de temps on trouve la partie tout à droite qui sert à défiler,
+ ou on peut utiliser les deux doigts sur les trackpads moderne.
+\end_layout
+
+\begin_layout Section
+Vérification d'orthographe
+\end_layout
+
+\begin_layout Standard
+Pour vérifier l'orthographe du document choisissez l'onglet Révision et
+ appuyez sur le bouton Grammaire et orthographe.
+ Vous pouvez également appuyer sur la touche 'F7'.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Écrivez 
+\emph on
+Bonjour
+\emph default
+, mettez en gras-italique-souligné-centré et revenez à la ligne
+\end_layout
+
+\begin_layout Enumerate
+Écrivez 
+\emph on
+Salut
+\emph default
+ et alignez à droite
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Utilisation de la mise en forme:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Mise en page
+\end_layout
+
+\begin_layout Standard
+Dans le traitement de texte il est de bon style de commencer d'abord avec
+ la saisi du texte, avant de mettre les différents styles sur la page.
+ Si on procède de cette manière-là, on peut se concentrer d'abord sur le
+ contenu, et puis mettre le tout en forme de façon unique.
+\end_layout
+
+\begin_layout Standard
+Dans le cas contraire, on risque d'avoir un mélange de styles dans la mise
+ en page qui ne donne pas envie de lire ou de donner suite à une lettre.
+\end_layout
+
+\begin_layout Section
+Sélectionner un texte
+\end_layout
+
+\begin_layout Standard
+L'outil de base pour la mise en page est la 
+\emph on
+sélection
+\emph default
+.
+ On indique de cette manière quelle partie du texte on veut changer.
+ Pour sélectionner avec la souris, il faut commencer à un bout du texte
+ à sélectionner, appuyer le bouton gauche et déplacer la souris, tout en
+ gardant le bouton gauche appuyé.
+ Quand on est arrivé à l'autre bout du texte, on peut relâcher le bouton.
+\end_layout
+
+\begin_layout Standard
+Microsoft Word indique une sélection avec une couleur bleue.
+ Une fois que la sélection est faite, il y a une boîte qui apparaît en transpare
+nce et qui permet d'appliquer directement certains styles spéciales sur
+ le texte.
+ On verra cette boîte plus tard.
+\end_layout
+
+\begin_layout Standard
+Il y a plusieurs manières de sélectionner un texte:
+\end_layout
+
+\begin_layout Description
+Libre comme indiqué en haut, en sélectionnant les deux bouts du texte avec
+ le bouton gauche de la souris enfoncé
+\end_layout
+
+\begin_layout Description
+Ligne si on veut sélectionner toute une ligne, on peut partir avec le curseur
+ à gauche jusqu'à ce qu'il se transforme en flèche qui pointe à droite.
+ Un clic simple sélectionne uniquement la ligne indiquée, mais on peut aussi
+ sélectionner plusieurs lignes, comme pour la sélection libre
+\end_layout
+
+\begin_layout Description
+Mot pour sélectionner un seul mot, il suffit de double-cliquer dessus avec
+ le bouton gauche
+\end_layout
+
+\begin_layout Description
+Paragraphe on peut aussi sélectionner tout un paragraphe en cliquant trois
+ fois rapidement dedans
+\end_layout
+
+\begin_layout Description
+Déselectionner pour enlever une sélection, cliquer avec le bouton dans la
+ sélection ou à côté (mais pas dans la bordure, sinon vous allez sélectionner
+ la ligne)
+\end_layout
+
+\begin_layout Standard
+Entraînez-vous sur un exemple de texte pour faire ces différentes sélections.
+ Il faut maîtriser au moins la sélection libre et la déselection, les autres
+ peuvent s'apprendre petit à petit plus tard.
+\end_layout
+
+\begin_layout Section
+Aligner un texte
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement o
+overhang 0in
+width "6cm"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/accueil-paragraphe.PNG
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Le groupe paragraphe
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+Dans l'onglet 
+\emph on
+Accueil
+\emph default
+ vous trouvez les boutons d'alignement dans le groupe 
+\emph on
+Paragraphe
+\emph default
+.
+ Ces boutons vous permettent de placer le texte à gauche, au centre ou à
+ droite.
+ Cet alignement s'applique toujours à la sélection en cours, ou alors au
+ paragraphe dans lequel le curseur se trouve actuellement.
+\end_layout
+
+\begin_layout Standard
+Dans la deuxième ligne de gauche à droite vous trouvez:
+\end_layout
+
+\begin_layout Itemize
+Aligner à gauche - le texte standard
+\end_layout
+
+\begin_layout Itemize
+Centrer - pour des titres ou des mises en page spéciales
+\end_layout
+
+\begin_layout Itemize
+Aligner à droite - pour les langues de droite à gauche
+\end_layout
+
+\begin_layout Itemize
+Justifier - pour donner une image de texte égalisée à droite
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+Prenez un texte déjà existant et appliquez les diverses alignements sur
+ les paragraphes.
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Alignements
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Styles de texte
+\end_layout
+
+\begin_layout Standard
+Le Microsoft Word vous propose dans son ruban tout un ensemble de styles
+ pré-définis qui permettent de faire une mise en page correctement et unifié
+ de votre document.
+ Il est important de suivre au plus près possible ces styles, surtout pour
+ un document volumineux (plus que 3 pages).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement h
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Images/ruban_accueil_styles.PNG
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+La partie style du ruban
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Interlignes
+\end_layout
+
+\begin_layout Standard
+Les deux premiers boutons servent à changer l'espacement entre les lignes.
+ Si vous avez une lettre avec une adresse, il peut être intéressant pour
+ cette adresse de la sélectionner et d'appliquer le style 
+\emph on
+Sans interlignes
+\emph default
+.
+ Ainsi l'adresse apparaît plus condensé que le reste du texte.
+\end_layout
+
+\begin_layout Subsection
+Titres
+\end_layout
+
+\begin_layout Standard
+Si on a un document avec plusieurs titres et sous-titres, il est bon d'utiliser
+ les styles proposés par Microsoft Word.
+ Dans un document on a normalement une seule ligne qui s'appelle 
+\emph on
+Titre
+\emph default
+, c'est le titre du document.
+ Pour les autres titres, on commence avec 
+\emph on
+Titre 1
+\emph default
+ pour les titres principaux, puis 
+\emph on
+Titre 2
+\emph default
+ pour les sous-titres et ainsi de suite.
+\end_layout
+
+\begin_layout Subsection
+Modifier les styles
+\end_layout
+
+\begin_layout Standard
+Une fois qu'on a appliqué les styles à son document en utilisant les boutons
+ du Microsoft Word, on peut facilement changer tout les titres avec un seul
+ clic! Pour ceci, vous pouvez explorer le bouton 
+\emph on
+Modifier les styles
+\emph default
+ tout à droite du groupe 
+\emph on
+Style
+\emph default
+.
+ Vous pouvez changer trois choses:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Jeu
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+styles qui vous donne une liste de styles pré-définis qui vont s'appliquer
+ à tout votre document (ou à la sélection)
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Couleurs pour changer le jeu de couleurs utilisés dans les styles
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+Polices si vous voulez appliquer d'autres polices sur votre document
+\end_layout
+
+\begin_layout Standard
+Une entrée très importante se trouve dans la rubrique 
+\emph on
+Jeu de styles
+\emph default
+, c'est l'entrée 
+\emph on
+Restaurer les styles rapides du document
+\emph default
+, qui vous permet rapidement de retrouver un document normal si vous avez
+ appliqué trop de styles, polices et couleurs!
+\end_layout
+
+\begin_layout Section
+Styles spéciaux
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 7
+placement O
+overhang 0in
+width "6cm"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images_13/styles_petits.png
+	width 6cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Boîte à accès rapide
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dans la mise en page des textes, surtout pour des textes longues de plusieurs
+ pages, il est important de garder les mêmes polices et styles sur le document
+ entier.
+ Par contre pour des petits documents, des invitations ou des papillons
+ à distribuer, c'est pratique de pouvoir utiliser des polices spéciales.
+ Pour cela Word nous offre toute une panoplie de différents options pour
+ mettre en place notre texte.
+ Tout ces styles spéciaux s'appliquent le plus simplement en sélectionnant
+ le texte où on veut appliquer le nouveau style, et puis d'utiliser soit
+ la
+\emph on
+ boîte à accès rapide
+\emph default
+, soit le ruban 
+\emph on
+Accueil - Police.
+\end_layout
+
+\begin_layout Subsection
+Gras, italique, souligné
+\end_layout
+
+\begin_layout Standard
+Ces styles sont utiles pour donner un petit relief à un texte, sans pour
+ autant gêner la lisibilité.
+ On peut par exemple choisir des mots clés dans un texte et les mettre en
+ gras.
+ Pour un titre principal on peut choisir gras et souligné en même temps.
+ Toutes ces options sont disponible depuis la 
+\emph on
+boîte à accès rapide
+\emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Changer la taille
+\end_layout
+
+\begin_layout Standard
+En faisant des invitations ou des pages de titre, on peut facilement augmenter
+ la taille de la police pour donner plus de force.
+\end_layout
+
+\begin_layout Subsection
+Choisir une autre police
+\end_layout
+
+\begin_layout Standard
+La même chose est aussi possible pour la police principale, c'est-à-dire
+ la façon comment l'ordinateur écrit les différents caractères.
+ Le Word vous propose une multitude de polices, mais pour des documents
+ qui dépassent quelques lignes, les polices spéciales peuvent devenir illisibles.
+ C'est pour cela qu'on utilise les polices jolies seulement pour les titres
+ ou des phrases courtes.
+\end_layout
+
+\begin_layout Subsection
+Wordart
+\end_layout
+
+\begin_layout Standard
+Le roi des polices sous Word est le fameux Wordart.
+ Avec cette option vous pouvez mettre un titre ou une indication sur la
+ page entière, tout en donnant un aspect spécial à votre feuille.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+Dans les milieux professionnels (ONGs et entreprises) européens il est de
+ mauvais ton d'utiliser des Wordarts.
+ Donc gardez cette fonction pour vos invitations, et n'en mettez pas sur
+ vos CVs ou documents officiels!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Saisi de texte
+\end_layout
+
+\begin_layout Standard
+Si vous avez un texte en manuscrit, et que vous voulez le saisir, le plus
+ simple est de le faire dans un trait, sans se poser la question pour la
+ mise en page.
+ On saisit seulement tous les mots et on insère seulement des retours à
+ la ligne après chaque paragraphe et après chaque titre.
+ Évitez de faire des retours à la ligne selon le document manuscrit, et
+ laissez le Microsoft Word s'occuper des retours à la ligne.
+\end_layout
+
+\begin_layout Standard
+Une fois le texte saisi, on peut maintenant sélectionner les différentes
+ parties du texte, et appliquer les styles choisis, de préférence les styles
+ pré-définis de Word.
+\end_layout
+
+\begin_layout Standard
+Si par contre vous n'avez pas encore le texte, mais vous savez ce que vous
+ voulez saisir, vous pouvez structurer vos pensées en commençant par les
+ titres principaux, puis d'ajouter les sous-titres, et finalement le texte.
+ C'est d'ailleurs aussi de cette manière-là que le document actuel a vu
+ le jour.
+ On appelle cette manière de faire 
+\emph on
+top-down
+\emph default
+, parce qu'on commence par le plus général, et on finit avec les détails.
+\end_layout
+
+\begin_layout Subsection
+Dactylographie
+\end_layout
+
+\begin_layout Standard
+Comme décrit dans le paragraphe 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Positionnement-des-doigts"
+
+\end_inset
+
+, pour écrire plus vite, on peut mettre en œuvre tout les dix doigts de
+ la main, au lieu d'en utiliser seulement un ou deux.
+ Il y a une position de base pour les deux mains, et après on peut atteindre
+ chaque lettre avec le doigt correspondant.
+ Plusieurs logiciels sont disponibles pour vous aider à apprendre la dactylograp
+hie, mais il faut garder en tête qu'il faut un engagement d'à peu près 30
+ heures pour pouvoir utiliser la dactylographie.
+\end_layout
+
+\begin_layout Section
+Raccourcis clavier
+\end_layout
+
+\begin_layout Standard
+En travaillant avec l'ordinateur, on peut gagner du temps en utilisant certaines
+ touches sur le clavier qui peuvent effectuer les mêmes tâches.
+ La plupart de ces raccourcis se font en combinaison de la touche imprimé
+ 
+\emph on
+ctrl
+\emph default
+, ce qui signifie 
+\emph on
+control
+\emph default
+ en Anglais.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="50col%">
+<column alignment="center" valignment="top" width="40col%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+ctrl-s Enregistrer
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+ctrl-p Imprimer
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+ctrl-c Copier
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+ctrl-x Couper
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+ctrl-v Coller
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "80col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+Pour modifier un texte sélectionné:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+ctrl-g Mettre en gras
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+ctrl-i Incliner le texte
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+ctrl-u Souligner
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Quelques raccourcis claviers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\noindent
+Taquets
+\end_layout
+
+\begin_layout Section
+Utilisation des taquets
+\end_layout
+
+\begin_layout Standard
+Un taquet permet à l'utilisateur de sauter toute une partie d'une ligne
+ en faisant une seule touche Tabulation.
+ Le taquet renvoie à un endroit précis sur la dimension horizontale où un
+ texte va être placé.
+ Les taquets sont souvent utilisés pour une adresse, une salutation, ou
+ une signature.
+ Il fait partie de la mise en page, et il permet d'avoir une première impression
+ positive, ce qui est important en présentant son CV ou lettre de motivation
+ dans une ONG.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+La touche tabulation vous permettra de sauter soit à droit avec la touche
+ simple, soit à gauche en appuyant sur Shift + tabulation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Ajouter des taquets
+\end_layout
+
+\begin_layout Standard
+Pour ajouter un taquet, il suffit de cliquer sur la règle là ou vous voulez
+ le mettre.
+ Un petit symbole└ s'affichera là où vous avez cliqué.
+ Ce taquet est seulement valable pour la ligne où il a été mis.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+Si jamais vous ne voyez pas la Règle, vous pouvez la trouver en cliquant
+ sur l'onglet Affichage et puis en cochant la boîte pour la Règle.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Supprimer des taquets
+\end_layout
+
+\begin_layout Standard
+Vous pouvez supprimer des taquets en les enlevant avec la souris.
+ Cliquez sur le petit└ avec un clic gauche et tirez en bas.
+ Le taquet va être supprimé.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename Images/taquet_supprimer.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Les taquets dans la règle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vous pouvez également voir la liste des taquets avec leur position en faisant
+ un double-clic sur la règle.
+ Vous trouverez un menu qui vous donne la possibilité de supprimer soit
+ un taquet, soit tous les taquets.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+Si vous faites la touche Entrer à partir de la ligne où se trouve le taquet,
+ celui-ci va être copié sur la nouvelle ligne.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Vérification des Taquets
+\end_layout
+
+\begin_layout Standard
+Pour vérifier que les taquets sont correctement mis, vous pouvez regarder
+ tous les symboles de mise en page.
+ Depuis l'onglet Accueil, cliquez le petit bouton 
+\begin_inset Graphics
+	filename Images/bouton_formattage.png
+	width 1cm
+
+\end_inset
+
+pour afficher les symboles de mise en page non-affichés.
+ Vous allez voir un seul marque de tabulation (→) au lieu de plusieurs tabulatio
+ns (→ → →) ou plusieurs espaces (••••••••).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images/espaces-taquets-taquet.png
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Un seul taquet pour insérer!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+David Ngambodaï
+\end_layout
+
+\begin_layout Plain Layout
+Massakory – Tchad
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 8cm
+\end_inset
+
+Monsieur Abbo Albert Albaine
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 8cm
+\end_inset
+
+N'Djaména - Tchad
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Objet : Achat d’un ordinateur
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Monsieur,
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Je suis très content de l'ordinateur que vous m’avez acheté la dernière
+ fois.
+ J'espère que vous êtes d'accord que je vous envoie une somme de 250'000
+ FCFA pour un autre ordinateur si vous en trouvez un à ce prix.
+\end_layout
+
+\begin_layout Plain Layout
+Je vous expédie l’argent demain soir, mais avant Noël.
+ Mettez-moi au courant des caractéristiques de l’ordinateur que vous achetez.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+En attendant une suite favorable, Monsieur, veuillez agréer mes meilleures
+ salutations,
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 8cm
+\end_inset
+
+David Ngambodaï
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Copier une lettre
+\begin_inset Newline newline
+\end_inset
+
+Il faut mettre les lignes 
+\begin_inset Quotes fld
+\end_inset
+
+Monsieur Abbo Albert Albaine, 
+\begin_inset Quotes fld
+\end_inset
+
+N'Djaména - Tchad
+\begin_inset Quotes frd
+\end_inset
+
+, et la signature 
+\begin_inset Quotes fld
+\end_inset
+
+David Ngambodaï
+\begin_inset Quotes frd
+\end_inset
+
+ avec un taquet à 10 cm.
+ Notez bien que vous n'avez pas besoin de suivre exactement les mêmes retours
+ à la ligne.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Insertion d'un tableau
+\end_layout
+
+\begin_layout Standard
+\begin_inset Wrap figure
+lines 0
+placement O
+overhang 0in
+width "4cm"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename Images_13/word_tableau.png
+	lyxscale 33
+	width 3.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Le dialogue pour insérer un tableau
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pour représenter des données d'une manière plus jolie, on peut utiliser
+ des tableaux.
+ Souvent on a une première ligne qui contient les en-têtes, qui représentent
+ le type de contenu de chaque colonne, suivi des différents lignes qui contienne
+nt ces données.
+ Le contenu peut être un numéro ou un texte, des fois on peut même mettre
+ des graphiques.
+\end_layout
+
+\begin_layout Standard
+Afin de commencer un tableau, vous pouvez utiliser les étapes suivantes:
+\end_layout
+
+\begin_layout Enumerate
+Cliquez à l'emplacement où vous souhaitez insérer un tableau.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Sous l'onglet Insertion, dans le groupe Tableaux, cliquez sur Tableau, et
+ choisissez la taille désirée.
+\end_layout
+
+\begin_layout Standard
+Une fois que le tableau a été inséré dans le document, vous pouvez commencer
+ à remplir les cellules.
+ On peut mettre les en-têtes en gras et centré pour bien les distinguer
+ du reste du tableau.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex Information
+status open
+
+\begin_layout Plain Layout
+Vous pouvez appliquer des styles de tableaux qui se trouvent dans l'onglet
+ 
+\emph on
+Outils de tableau -> Création
+\emph default
+.
+ Cet onglet apparaît seulement si le curseur se trouve dans un tableau!
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Modification d'un tableau
+\end_layout
+
+\begin_layout Standard
+Quand vous voulez modifier un tableau, Microsoft Word vous permet d'ajouter
+ des lignes ou colonnes, de supprimer des lignes ou colonnes, ou bien de
+ fusionner plusieurs cellules.
+ Utilisez les onglets spéciaux qui apparaîtront si vous cliquez une fois
+ dans le tableau.
+ Vous trouverez ainsi des boutons pour insérer ou supprimer, ainsi que le
+ bouton pour fusionner.
+\end_layout
+
+\begin_layout Subsection
+Sélection et ajustement des colonnes
+\end_layout
+
+\begin_layout Standard
+En plaçant la souris sur les bords du tableau vous trouvez aussi des fonctions
+ pour sélectionner tout une ligne ou tout une colonne.
+ Ceci peut être très pratique si vous voulez par exemple appliquer un style
+ sur toute l'en-tête ou sur une colonne spécifique.
+\end_layout
+
+\begin_layout Standard
+On peut aussi changer la largeur des colonnes en déplaçant la souris sur
+ le bord entre deux colonnes, jusqu'à ce que la flèche simple devienne une
+ flèche double.
+ En cliquant et déplaçant on peut élargir ou rétrécir la colonne.
+\end_layout
+
+\begin_layout Subsection
+Fusionner les cellules
+\end_layout
+
+\begin_layout Standard
+Si on fait une facture avec un tableau, on veut que la dernière ligne qui
+ contient le mot 
+\emph on
+Total
+\emph default
+ ne soit pas divisée, mais apparaisse comme une grande cellule.
+ Pour faire ceci, on sélectionne les cellules que vous voulez coller ensemble,
+ puis vous cliquez dans l'onglet 
+\emph on
+Disposition
+\emph default
+ - 
+\emph on
+Fusionner
+\emph default
+ - 
+\emph on
+Fusionner les cellules
+\emph default
+.
+ Vous avez maintenant réduit les cellules sélectionnées en une seule cellule,
+ ce qui est beaucoup plus joli pour écrire le Total d'une facture.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Float algorithm
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Mr Bacha Senoussi
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 8cm
+\end_inset
+
+Moussoro, le 03/10/2014
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+Veuillez trouver la facture de fournitures pour votre centre informatique
+ dont les produits sont dans le tableau ci-dessous:
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="5">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+N°
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+Désignation
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+Quantité
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+Prix unitaire
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+Prix total
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Claviers
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100.000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Souris
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+100.000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Câble VGA
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.500
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+37.500
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Clé Tigo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20.000
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20.000
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multicolumn="1" alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Total
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+257.500
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset space \hspace{}
+\length 8cm
+\end_inset
+
+Bacha Senoussi
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Faire une facture
+\begin_inset Newline newline
+\end_inset
+
+Mettre la 1ère ligne du tableau ci–haut en gras-italique, souligné et centré.
+ Notez bien que la dernière ligne a quatre cellules fusionnées en une cellule.
+ Le taquet est à 10 cm.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
